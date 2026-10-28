@@ -1,0 +1,4 @@
+customtkinter>=6.0
+reportlab>=5.0
+# Opcional, para armar NovaMut.exe:
+# pyinstaller>=6.0

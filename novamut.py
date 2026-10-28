@@ -5700,13 +5700,13 @@ class PanelCredencialSocio(ctk.CTkFrame):
 #  TERMINOS Y CONDICIONES / PROGRAMADORES
 # =====================================================================
 PROGRAMADORES = [
-    ("Diego Alejandro Fernandez", "11 6437-6391"),
-    ("Joshua Giuliano Venticinque", "11 3594-6259"),
+    ("Diego Alejandro Fernandez", "Desarrollador"),
+    ("Joshua Giuliano Venticinque", "Desarrollador"),
 ]
 
 
 def _contactos_txt():
-    return "\n".join(f"  -  {n}  -  Tel. {t}" for n, t in PROGRAMADORES)
+    return "\n".join(f"  -  {n}  -  {t}" for n, t in PROGRAMADORES)
 
 
 # Si se cambia el texto de los terminos, subir TERMINOS_VERSION: todos los
@@ -5803,7 +5803,7 @@ class PanelProgramadores(ctk.CTkFrame):
             ctk.CTkLabel(c, text=nombre, font=F(16, "bold"),
                          text_color=COLOR_TEXT, anchor="w").pack(
                          fill="x", padx=18)
-            ctk.CTkLabel(c, text=f"Tel. {tel}", font=F(14),
+            ctk.CTkLabel(c, text=tel, font=F(14),
                          text_color=COLOR_TEXT_MUTED, anchor="w").pack(
                          fill="x", padx=18, pady=(2, 18))
 
