@@ -1,6 +1,8 @@
 # NovaMut
 
-Aplicación de escritorio (Python + Tkinter + SQLite) para la gestión de una mutual: socios, proveedores, cuotas y descuentos de compras, con usuarios, auditoría y backups automáticos.
+Sistema de gestión para una mutual. Es una aplicación de escritorio (Python + Tkinter + SQLite) para administrar socios, proveedores, cuotas y descuentos de compras. Incluye usuarios con contraseña, registro de auditoría y backups automáticos.
+
+> ⚠️ La base de datos (`novamut.db`) y los backups **no** están en este repositorio a propósito, porque contienen datos reales de la mutual.
 
 ## Requisitos
 - Python 3 (con Tkinter, incluido en el instalador oficial de Windows)
