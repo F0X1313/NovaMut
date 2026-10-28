@@ -1,0 +1,15 @@
+# Entorno virtual de Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Datos locales (no subir: contienen usuarios y datos reales)
+*.db
+*.db-journal
+backups/
+
+# Compilados de PyInstaller
+build/
+dist/
+*.spec
